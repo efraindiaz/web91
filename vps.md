@@ -1,3 +1,11 @@
+## 🔧 Actualización del sistema
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+
+---
+
 ## 📦 Instalar NVM (Node Version Manager)
 
 > NVM nos permite instalar y gestionar múltiples versiones de Node.js
@@ -5,7 +13,7 @@
 📄 Referencia: [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
 🔁 Recargar bash para que nvm funcione:
