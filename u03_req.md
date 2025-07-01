@@ -67,7 +67,7 @@ La elección es libre, siempre y cuando esté **justificada** y correctamente **
 
 ## 🎯 Entregables
 
-La entrega final deberá realizarse en un **documento en formato PDF**, que contenga lo siguiente:
+La entrega deberá realizarse en un **documento en formato PDF**, que contenga lo siguiente:
 
 - ✅ **Aplicación funcional**
     
