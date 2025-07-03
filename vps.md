@@ -111,6 +111,16 @@ server {
     listen 80;
     server_name mywebsite.com www.mywebsite.com;
 
+    # ────────────────────
+    # Configuración de las cabeceras de seguridad
+    # ────────────────────
+    add_header X-Frame-Options       "DENY";
+    add_header X-Content-Type-Options "nosniff";
+    add_header X-XSS-Protection      "1; mode=block";
+    add_header Referrer-Policy       "no-referrer-when-downgrade";
+    add_header Content-Security-Policy "default-src 'self'";
+    # ────────────────────
+
     location / {
         proxy_pass http://localhost:3000;
         proxy_http_version 1.1;
