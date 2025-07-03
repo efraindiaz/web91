@@ -77,8 +77,11 @@ pm2 save
 ```bash
 sudo ufw allow http
 sudo ufw allow https
+sudo ufw allow 22/tcp
 sudo ufw reload
 ```
+
+Puerto 22 para permitir conexión mediante SSH
 
 ✅ Verifica estado:
 
