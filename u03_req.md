@@ -74,25 +74,26 @@ La entrega deberá realizarse en un **documento en formato PDF**, que contenga l
     - Proyecto completo compuesto por: **Landing Page + API + Dashboard (CRM)**
         
     - Todas las funcionalidades deben estar integradas y operativas
+ 
+- 📄 **Informe técnico** 
         
-- 📸 **Capturas de pantalla**
+    - 📸 **Capturas de pantalla**
     
-    - Evidencia del funcionamiento de:
+        - Evidencia del funcionamiento de:
         
-        - Envío del formulario
+            - Envío del formulario
             
-        - Visualización de leads
+            - Visualización de leads
             
-        - Notificación o integración con API externa
+            - Notificación o integración con API externa
             
-        - Panel o autenticación si aplica
-            
-- 📄 **README técnico (en el mismo PDF)**  
-    Incluye:
+            - Panel o autenticación si aplica            
     
     - Justificación de los servicios externos utilizados (ej. EmailJS, SendGrid, Slack.)
         
     - Diagrama de arquitectura del sistema (puede ser hecho en Draw.io, Figma, Lucidchart, etc.)
+
+    - Esquema/Diagrama de base de datos
         
     - Descripción de las medidas de seguridad aplicadas:
         
